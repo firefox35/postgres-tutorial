@@ -100,8 +100,8 @@ johnny_fox = Programmer(
 # session.add(johnny_fox)
 
 # updating a single record
-#programmer = session.query(Programmer).filter_by(id=7).first()
-#programmer.famous_for = "World President"
+# programmer = session.query(Programmer).filter_by(id=7).first()
+# programmer.famous_for = "World President"
 
 # commit our session to the database
 # session.commit()
@@ -125,7 +125,7 @@ johnny_fox = Programmer(
 # defensive programming
 # if programmer is not None:
 #    print("Programmer Found:", programmer.first_name + " " + programmer.last_name)
-#    confirmation = input("Are you sure you want to delete this record? (y/n) ")
+#    confirmation = input("Are you sure you want to delete this record? (y/n)")
 #    if confirmation.lower() == "y":
 #       session.delete(programmer)
 #       session.commit()
